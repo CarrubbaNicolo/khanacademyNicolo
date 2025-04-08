@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galleria di Creature e Fatti Divertenti</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: rgb(252, 41, 41);
+        }
+
+        h1, h2 {
+            font-family: fantasy;
+            border-bottom: 1px solid rgb(230, 230, 230);
+            padding: 3px;
+        }
+
+        h1:hover, h2:hover {
+            background-color: rgb(248, 255, 199);
+        }
+
+        p {
+            font-family: sans-serif;
+            color: rgb(152, 158, 157);
+        }
+
+        .animal-images img {
+            max-width: 150px;
+            margin-right: 10px;
+        }
+
+        .emperor {
+            font-family: cursive;
+        }
+
+        .reign {
+            font-family: monospace;
+        }
+
+        table .emperor {
+            background-color: red;
+        }
+
+        table .reign {
+            background-color: gray;
+        }
+
+        .image-small {
+            width: 150px;
+        }
+
+        .image-medium {
+            width: 200px;
+        }
+
+        .black-frame {
+            border: 8px double rgb(38, 38, 38);
+        }
+
+        .gold-frame {
+            border: 10px ridge rgb(255, 183, 0);
+        }
+
+        .silver-frame {
+            border: 10px groove rgb(204, 204, 204);
+        }
+
+        #cloud-pic {
+            width: 100px;
+            float: left;
+            margin: 7px;
+        }
+
+        #cloud-sidebar {
+            background: rgb(255, 255, 219);
+            float: right;
+            width: 30%;
+            margin: 7px;
+        }
+
+        .info {
+            background-color: gold;
+        }
+
+        .first-sentence {
+            font-weight: bold;
+        }
+
+        /* Stile per l'indice */
+        #indice {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #indice h2 {
+            font-family: fantasy;
+            margin-top: 0;
+        }
+
+        #indice ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #indice ul li {
+            margin: 5px 0;
+        }
+
+        #indice ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #indice ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Indice -->
+    <div id="indice">
+        <h2>Indice</h2>
+        <ul>
+            <li><a href="#animali">Nome degli Animali</a></li>
+            <li><a href="#discendenti-khan">Discendenti di Khan</a></li>
+        </ul>
+    </div>
+
+    <h1 id="animali">Nome degli Animali</h1>
+    <p>Per molte specie di animali, ci sono nomi che usiamo per riferirci a un gruppo di essi - come un branco di uccelli. Ecco alcuni che potresti non conoscere.</p>
+
+    <h2>A skulk of foxes</h2>
+    <p>Also called a "leash."</p>
+    <div class="animal-images">
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png" alt="Volpe">
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png" alt="Volpe">
+    </div>
+
+    <h2>A clowder of cats</h2>
+    <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+    <div class="animal-images">
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="Gatto">
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="Gatto">
+    </div>
+    <p><a href="http://en.wikipedia.org/wiki/List_of_animal_names">Scopri di più su Wikipedia</a></p>
+
+    <h1 id="discendenti-khan">Discendenti di Khan</h1>
+    <p><strong class="emperor">Genghis Khan</strong> (<span class="reign">1206-1227</span>) era un imperatore che aveva molti figli e figlie, e molti famosi imperatori discendono da lui.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Reign</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="emperor">Ögedei Khan</td>
+                <td class="reign">1229-1241</td>
+            </tr>
+            <tr>
+                <td class="emperor">Kublai Khan</td>
+                <td class="reign">1260-1294</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
